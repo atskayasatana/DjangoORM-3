@@ -29,6 +29,8 @@ conda create -n djangoenv python=3.6 anaconda
 ``` Python 
 python manage.py runserver
 ```
+Главная страница сайта:
+![](https://github.com/atskayasatana/Images/blob/main/schoolkids.png "Главная страница")
 
 
 
