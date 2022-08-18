@@ -13,7 +13,11 @@ DATABASE_NAME = путь к базе данных, например: schoolbase.
 ```
 Файл нужно сохранить в директории проекта.
 
-Создадим виртуальное окружение
+Установим зависимости из файла requirements.txt
+```Python
+pip install -r requirements.txt
+```
+Создадим виртуальное окружение(если оно не создано)
 ```Python
 conda create -n djangoenv python=3.6 anaconda 
 ```
@@ -21,7 +25,10 @@ conda create -n djangoenv python=3.6 anaconda
 ```Python
   conda activate djangoenv
 ```
-
+Запускаем сервер:
+``` Python 
+python manage.py runserver
+```
 
 
 
